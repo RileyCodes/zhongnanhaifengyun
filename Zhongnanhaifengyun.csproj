@@ -306,6 +306,7 @@
     <Compile Include="Assets\NoticeController.cs" />
     <Compile Include="Assets\onchangemenusence.cs" />
     <Compile Include="Assets\OnStartGameClicked.cs" />
+    <Compile Include="Assets\protestbtnclick.cs" />
     <Compile Include="Assets\Script1.cs" />
     <Compile Include="Assets\Test.cs" />
     <Compile Include="Assets\testpaomadeng.cs" />

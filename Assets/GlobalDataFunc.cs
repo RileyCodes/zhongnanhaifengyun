@@ -10,6 +10,7 @@ public class GlobalDataFunc : MonoBehaviour
     public  Canvas canvas_mainUI;
     public  Canvas canvas_NewDetail;
     public GameObject GO_overseanewes;
+    public GameObject GO_VedioPlane;
 
     static List<Canvas> GameUIPages = new List<Canvas>();
 
@@ -17,6 +18,12 @@ public class GlobalDataFunc : MonoBehaviour
     {
         GameUIPages.Add(canvas_mainUI);
         GameUIPages.Add(canvas_NewDetail);
+    }
+
+    public void PlayVideo(int videoIndex)
+    {
+        GameObject VedioPlane = Instantiate(GO_VedioPlane) as GameObject;
+
     }
 
     public void HideAllUI()
