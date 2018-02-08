@@ -13,8 +13,10 @@ public class 游戏时间转换为游戏内日期 : MonoBehaviour {
 
     int GameSpeed = 10000;
 
-    GameObject thePlayer;
+    GameObject theGameWorld;
     GlobalDataFunc glodata;
+
+
 
 
     public static DateTime UnixTimeStampToDateTime(double unixTimeStamp)
@@ -25,10 +27,13 @@ public class 游戏时间转换为游戏内日期 : MonoBehaviour {
         return dtDateTime;
     }
 
+
+
+
     // Use this for initialization
     void Start () {
-        thePlayer = GameObject.Find("游戏世界控制器");
-        glodata = thePlayer.GetComponent<GlobalDataFunc>();
+        theGameWorld = GameObject.Find("游戏世界控制器");
+        glodata = theGameWorld.GetComponent<GlobalDataFunc>();
     }
 	
 	// Update is called once per frame
