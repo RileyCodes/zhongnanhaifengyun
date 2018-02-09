@@ -1,0 +1,344 @@
+fileFormatVersion: 2
+guid: 85b287509a67a394aa4d79c34fdd3940
+timeCreated: 1518149876
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Aniu#
+    100002: Aniu*
+    100004: Aniu*01
+    100006: Aniu0
+    100008: Aniu1
+    100010: Aniu2
+    100012: Aniu3
+    100014: Aniu4
+    100016: Aniu5
+    100018: Aniu6
+    100020: Aniu7
+    100022: Aniu8
+    100024: Aniu9
+    100026: body
+    100028: body01
+    100030: body02
+    100032: body03
+    100034: body04
+    100036: body05
+    100038: body2
+    100040: body3
+    100042: body4
+    100044: CORD BASE
+    100046: cord hand
+    100048: NEWCORD
+    100050: NEWCORD02
+    100052: NIU
+    100054: NIU01
+    100056: NIU02
+    100058: NIU03
+    100060: NIU04
+    100062: NIU05
+    100064: NIU06
+    100066: NIU07
+    100068: NIU08
+    100070: NIU10
+    100072: Object01
+    100074: Object02
+    100076: Object03
+    100078: Object05
+    100080: Object06
+    100082: Object07
+    100084: Object09
+    100086: Object10
+    100088: Object11
+    100090: Object12
+    100092: Object13
+    100094: Object14
+    100096: Object15
+    100098: phone-ba
+    100100: phone-ba01
+    100102: PLUG BASE
+    100104: PLUG HAND
+    100106: //RootNode
+    400000: Aniu#
+    400002: Aniu*
+    400004: Aniu*01
+    400006: Aniu0
+    400008: Aniu1
+    400010: Aniu2
+    400012: Aniu3
+    400014: Aniu4
+    400016: Aniu5
+    400018: Aniu6
+    400020: Aniu7
+    400022: Aniu8
+    400024: Aniu9
+    400026: body
+    400028: body01
+    400030: body02
+    400032: body03
+    400034: body04
+    400036: body05
+    400038: body2
+    400040: body3
+    400042: body4
+    400044: CORD BASE
+    400046: cord hand
+    400048: NEWCORD
+    400050: NEWCORD02
+    400052: NIU
+    400054: NIU01
+    400056: NIU02
+    400058: NIU03
+    400060: NIU04
+    400062: NIU05
+    400064: NIU06
+    400066: NIU07
+    400068: NIU08
+    400070: NIU10
+    400072: Object01
+    400074: Object02
+    400076: Object03
+    400078: Object05
+    400080: Object06
+    400082: Object07
+    400084: Object09
+    400086: Object10
+    400088: Object11
+    400090: Object12
+    400092: Object13
+    400094: Object14
+    400096: Object15
+    400098: phone-ba
+    400100: phone-ba01
+    400102: PLUG BASE
+    400104: PLUG HAND
+    400106: //RootNode
+    2300000: Aniu#
+    2300002: Aniu*
+    2300004: Aniu*01
+    2300006: Aniu0
+    2300008: Aniu1
+    2300010: Aniu2
+    2300012: Aniu3
+    2300014: Aniu4
+    2300016: Aniu5
+    2300018: Aniu6
+    2300020: Aniu7
+    2300022: Aniu8
+    2300024: Aniu9
+    2300026: body
+    2300028: body01
+    2300030: body02
+    2300032: body03
+    2300034: body04
+    2300036: body05
+    2300038: body2
+    2300040: body3
+    2300042: body4
+    2300044: CORD BASE
+    2300046: cord hand
+    2300048: NEWCORD
+    2300050: NEWCORD02
+    2300052: NIU
+    2300054: NIU01
+    2300056: NIU02
+    2300058: NIU03
+    2300060: NIU04
+    2300062: NIU05
+    2300064: NIU06
+    2300066: NIU07
+    2300068: NIU08
+    2300070: NIU10
+    2300072: Object01
+    2300074: Object02
+    2300076: Object03
+    2300078: Object05
+    2300080: Object06
+    2300082: Object07
+    2300084: Object09
+    2300086: Object10
+    2300088: Object11
+    2300090: Object12
+    2300092: Object13
+    2300094: Object14
+    2300096: Object15
+    2300098: phone-ba
+    2300100: phone-ba01
+    2300102: PLUG BASE
+    2300104: PLUG HAND
+    3300000: Aniu#
+    3300002: Aniu*
+    3300004: Aniu*01
+    3300006: Aniu0
+    3300008: Aniu1
+    3300010: Aniu2
+    3300012: Aniu3
+    3300014: Aniu4
+    3300016: Aniu5
+    3300018: Aniu6
+    3300020: Aniu7
+    3300022: Aniu8
+    3300024: Aniu9
+    3300026: body
+    3300028: body01
+    3300030: body02
+    3300032: body03
+    3300034: body04
+    3300036: body05
+    3300038: body2
+    3300040: body3
+    3300042: body4
+    3300044: CORD BASE
+    3300046: cord hand
+    3300048: NEWCORD
+    3300050: NEWCORD02
+    3300052: NIU
+    3300054: NIU01
+    3300056: NIU02
+    3300058: NIU03
+    3300060: NIU04
+    3300062: NIU05
+    3300064: NIU06
+    3300066: NIU07
+    3300068: NIU08
+    3300070: NIU10
+    3300072: Object01
+    3300074: Object02
+    3300076: Object03
+    3300078: Object05
+    3300080: Object06
+    3300082: Object07
+    3300084: Object09
+    3300086: Object10
+    3300088: Object11
+    3300090: Object12
+    3300092: Object13
+    3300094: Object14
+    3300096: Object15
+    3300098: phone-ba
+    3300100: phone-ba01
+    3300102: PLUG BASE
+    3300104: PLUG HAND
+    4300000: body2
+    4300002: body3
+    4300004: body4
+    4300006: body01
+    4300008: body03
+    4300010: body04
+    4300012: body02
+    4300014: body05
+    4300016: Object09
+    4300018: Object10
+    4300020: Object05
+    4300022: Object02
+    4300024: Object06
+    4300026: Object11
+    4300028: Object12
+    4300030: Object13
+    4300032: Object14
+    4300034: NIU
+    4300036: NIU01
+    4300038: NIU02
+    4300040: NIU03
+    4300042: NIU04
+    4300044: NIU05
+    4300046: NIU06
+    4300048: NIU07
+    4300050: NIU08
+    4300052: NIU10
+    4300054: Aniu1
+    4300056: Aniu2
+    4300058: Aniu3
+    4300060: Aniu4
+    4300062: Aniu5
+    4300064: Aniu6
+    4300066: Aniu7
+    4300068: Aniu8
+    4300070: Aniu9
+    4300072: Aniu0
+    4300074: Aniu#
+    4300076: Aniu*
+    4300078: Aniu*01
+    4300080: Object01
+    4300082: Object03
+    4300084: Object07
+    4300086: Object15
+    4300088: body
+    4300090: phone-ba
+    4300092: phone-ba01
+    4300094: NEWCORD
+    4300096: NEWCORD02
+    4300098: cord hand
+    4300100: PLUG HAND
+    4300102: PLUG BASE
+    4300104: CORD BASE
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
