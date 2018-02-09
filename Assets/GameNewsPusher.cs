@@ -82,16 +82,25 @@ public class GameNewsPusher : MonoBehaviour {
 
     private void Update()
     {
-        if(glodata.CurrentInGameDatetime.Year == 2013 && glodata.CurrentInGameDatetime.Month == 03 && glodata.CurrentInGameDatetime.Day == 15 )
+        if (glodata.CurrentInGameDatetime.Year == 2013 && glodata.CurrentInGameDatetime.Month == 03 && glodata.CurrentInGameDatetime.Day == 15)
         {
             string tmp = glodata.CurrentInGameDatetimeToString();
             if (!DatetimePushedNews.Contains(tmp))
             {
-                PushNews("第一条新闻");
-                PushNews("第二条新闻");
+                PushNews("中国用巨额投资让非洲“闭嘴”？");
                 isPushedToday = true;
             }
-           
+
+        }
+        if (glodata.CurrentInGameDatetime.Year == 2013 && glodata.CurrentInGameDatetime.Month == 03 && glodata.CurrentInGameDatetime.Day == 17)
+        {
+            string tmp = glodata.CurrentInGameDatetimeToString();
+            if (!DatetimePushedNews.Contains(tmp))
+            {
+                PushNews("报告：中国在欧洲扩展政治影响力后果严重");
+                isPushedToday = true;
+            }
+
         }
     }
 }

@@ -9,8 +9,9 @@ public class GlobalDataFunc : MonoBehaviour
 
     public  Canvas canvas_mainUI;
     public  Canvas canvas_NewDetail;
-    public GameObject GO_overseanewes;
-    public GameObject GO_VedioPlane;
+    public  Canvas canvas_SkillTree;
+    public  GameObject GO_overseanewes;
+    public  GameObject GO_VedioPlane;
 
     static List<Canvas> GameUIPages = new List<Canvas>();
 
@@ -18,7 +19,14 @@ public class GlobalDataFunc : MonoBehaviour
     {
         GameUIPages.Add(canvas_mainUI);
         GameUIPages.Add(canvas_NewDetail);
+        GameUIPages.Add(canvas_SkillTree);
     }
+
+    public void DisplaySkillInfo(int SkillIndex)
+    {
+
+    }
+
 
     public void PlayVideo(int videoIndex)
     {
@@ -32,7 +40,7 @@ public class GlobalDataFunc : MonoBehaviour
         {
             GameUIPages[i].GetComponent<CanvasGroup>().alpha = 0;
             GameUIPages[i].GetComponent<CanvasGroup>().interactable = false;
-            canvas_NewDetail.GetComponent<CanvasGroup>().blocksRaycasts = false;
+            GameUIPages[i].GetComponent<CanvasGroup>().blocksRaycasts = false;
         }
         return;
     }
@@ -54,6 +62,15 @@ public class GlobalDataFunc : MonoBehaviour
         canvas_mainUI.GetComponent<CanvasGroup>().blocksRaycasts = true;
         return;
     }
+
+    public void ShowSkillTreeUI()
+    {
+        HideAllUI();
+        canvas_SkillTree.GetComponent<CanvasGroup>().alpha = 1;
+        canvas_SkillTree.GetComponent<CanvasGroup>().interactable = true;
+        canvas_SkillTree.GetComponent<CanvasGroup>().blocksRaycasts = true;
+    }
+
 
     public string CurrentInGameDatetimeToString()
     {

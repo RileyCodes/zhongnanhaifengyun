@@ -305,6 +305,7 @@
     <Compile Include="Assets\NewsInfomation.cs" />
     <Compile Include="Assets\NoticeController.cs" />
     <Compile Include="Assets\onchangemenusence.cs" />
+    <Compile Include="Assets\OnGameStart.cs" />
     <Compile Include="Assets\OnStartGameClicked.cs" />
     <Compile Include="Assets\protestbtnclick.cs" />
     <Compile Include="Assets\Script1.cs" />
@@ -320,6 +321,13 @@
     <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
     <None Include="Assets\Demigiant\DOTween\Editor\DOTweenEditor.XML" />
     <None Include="Assets\Demigiant\DOTween\readme.txt" />
+    <None Include="Assets\Img_assets\reference\build\readme.txt" />
+    <None Include="Assets\Img_assets\reference\data\readme.txt" />
+    <None Include="Assets\Img_assets\reference\heroes\readme.txt" />
+    <None Include="Assets\Img_assets\reference\information\readme.txt" />
+    <None Include="Assets\Img_assets\reference\loader\readme.txt" />
+    <None Include="Assets\Img_assets\reference\readme.txt" />
+    <None Include="Assets\Img_assets\reference\sence\readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
