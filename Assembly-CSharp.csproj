@@ -59,8 +59,15 @@
      <Compile Include="Assets\游戏时间转换为游戏内日期.cs" />
      <None Include="Assets\Demigiant\DOTween\readme.txt" />
      <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
+     <None Include="Assets\Img_assets\reference\build\readme.txt" />
+     <None Include="Assets\Img_assets\reference\information\readme.txt" />
      <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
+     <None Include="Assets\Img_assets\reference\data\readme.txt" />
+     <None Include="Assets\Img_assets\reference\loader\readme.txt" />
+     <None Include="Assets\Img_assets\reference\sence\readme.txt" />
      <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
+     <None Include="Assets\Img_assets\reference\readme.txt" />
+     <None Include="Assets\Img_assets\reference\heroes\readme.txt" />
      <None Include="Assets\3D_assets\shader_test\test_surface.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
