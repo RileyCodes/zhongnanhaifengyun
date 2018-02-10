@@ -156,3 +156,6 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 e4003c2664d8bf6cc939d42b6bf5b1bb Assembly-CSharp.dll:.NoticeController
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.onchangemenusence
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.protestbtnclick
+31ba02fb1329b72373e1b850e321435f Assembly-CSharp.dll:.WorldControler
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.disableSelfAnimationTableButton
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.onPhoneClicked

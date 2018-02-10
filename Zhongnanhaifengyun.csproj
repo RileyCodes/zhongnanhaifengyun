@@ -13,11 +13,13 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile></CompilerResponseFile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2017.3.0f3</UnityVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -299,6 +301,7 @@
   <ItemGroup>
     <Compile Include="Assets\Demigiant\DOTween\Examples\Basics.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Examples\Sequences.cs" />
+    <Compile Include="Assets\disableSelfAnimationTableButton.cs" />
     <Compile Include="Assets\GameNewsPusher.cs" />
     <Compile Include="Assets\GlobalDataFunc.cs" />
     <Compile Include="Assets\MainUIControl.cs" />
@@ -306,16 +309,20 @@
     <Compile Include="Assets\NoticeController.cs" />
     <Compile Include="Assets\onchangemenusence.cs" />
     <Compile Include="Assets\OnGameStart.cs" />
+    <Compile Include="Assets\onPhoneClicked.cs" />
     <Compile Include="Assets\OnStartGameClicked.cs" />
     <Compile Include="Assets\protestbtnclick.cs" />
     <Compile Include="Assets\Script1.cs" />
     <Compile Include="Assets\Test.cs" />
     <Compile Include="Assets\testpaomadeng.cs" />
+    <Compile Include="Assets\WorldControler.cs" />
     <Compile Include="Assets\游戏时间转换为游戏内日期.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\3D_assets\shader_test\test_surface.shader" />
-    <None Include="Assets\Demigiant\DOTween\DOTween.XML" />
+    <None Include="Assets\Demigiant\DOTween\DOTween.XML">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
     <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
     <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />

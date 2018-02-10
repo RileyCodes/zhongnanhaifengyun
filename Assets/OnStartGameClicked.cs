@@ -6,13 +6,20 @@ using UnityEngine.SceneManagement;
 public class OnStartGameClicked : MonoBehaviour {
 
 	// Use this for initialization
+
 	void Start () {
 		
 	}
 
-    void OnMouseUp()
+    public void OnMouseUp()
     {
-        SceneManager.LoadScene("Game", LoadSceneMode.Single);
+        GameObject theGameWorld;
+        theGameWorld = GameObject.Find("WorldControler");
+        WorldControler glodata;
+        glodata = theGameWorld.GetComponent<WorldControler>();
+        glodata.mainCamAniStartGame.enabled = true;
+
+        //SceneManager.LoadScene("Game", LoadSceneMode.Single);
     }
 
     // Update is called once per frame

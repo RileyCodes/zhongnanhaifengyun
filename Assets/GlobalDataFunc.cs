@@ -2,9 +2,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GlobalDataFunc : MonoBehaviour
 {
+    enum 国策{维稳I};
+
     public System.DateTime CurrentInGameDatetime;
 
     public  Canvas canvas_mainUI;
@@ -22,9 +25,12 @@ public class GlobalDataFunc : MonoBehaviour
         GameUIPages.Add(canvas_SkillTree);
     }
 
-    public void DisplaySkillInfo(int SkillIndex)
+    public void DisplaySkillInfo(int SkillIndex,string BtnName)
     {
-
+        if(SkillIndex == (int)国策.维稳I)
+        {
+            
+        }
     }
 
 
