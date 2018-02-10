@@ -1,8 +1,8 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Temp\Compiled-Custom-test_surface.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Temp\Compiled-Standard.shader">
     <Files>
-      <File FileName="Temp\Compiled-Custom-test_surface.shader" Line="1" Column="1" />
+      <File FileName="Temp\Compiled-Standard.shader" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
