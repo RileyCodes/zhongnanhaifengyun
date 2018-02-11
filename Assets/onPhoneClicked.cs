@@ -25,6 +25,8 @@ public class onPhoneClicked : MonoBehaviour {
             Animator anima;
             anima = phonebtn.GetComponent<Animator>();
             anima.enabled = true;
+            int isHideHash = Animator.StringToHash("ShowButtons");
+            anima.SetTrigger(isHideHash);
             yield return new WaitForSecondsRealtime(0.1f);
 
         }
@@ -46,6 +48,8 @@ public class onPhoneClicked : MonoBehaviour {
             Animator anima;
             anima = phonebtn.GetComponent<Animator>();
             anima.enabled = true;
+            int isHideHash = Animator.StringToHash("HideButtons");
+            anima.SetTrigger(isHideHash);
             yield return new WaitForSecondsRealtime(0.1f);
 
         }
@@ -65,9 +69,9 @@ public class onPhoneClicked : MonoBehaviour {
         }
         else
         {
+            glodata.isPhoneUIOn = false;
             StartCoroutine(hidePhoneUI());
         }
-
     }
 
     // Update is called once per frame
